@@ -1,15 +1,9 @@
-data/*
-!data/README.md
-.venv-faiss/
-__pycache__/
-*.pyc
-venv/
-.venv/
-*.log
-.DS_Store
-Thumbs.db
+# Exclure les images originales COCO
+data/train2017/
+data/val2017/
 
-# Python
+# Environnement Python
+.venv-faiss/
 __pycache__/
 *.pyc
 venv/
@@ -19,3 +13,6 @@ venv/
 *.log
 .DS_Store
 Thumbs.db
+
+# Données volumineuses : conservées localement
+data/

@@ -1,0 +1,14 @@
+# Dataset et fichiers générés
+data/
+.venv-faiss/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db

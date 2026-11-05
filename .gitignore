@@ -1,6 +1,20 @@
-# Exclure les images originales COCO
-data/train2017/
-data/val2017/
+# Images originales COCO
+data/train2017/*
+!data/train2017/.gitkeep
+data/val2017/*
+!data/val2017/.gitkeep
+
+# Images prétraitées
+data/processed_images/*
+!data/processed_images/.gitkeep
+
+# Exclure les images
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.gif
 
 # Environnement Python
 .venv-faiss/
@@ -13,6 +27,3 @@ venv/
 *.log
 .DS_Store
 Thumbs.db
-
-# Données volumineuses : conservées localement
-data/

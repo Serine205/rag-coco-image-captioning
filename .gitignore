@@ -30,3 +30,6 @@ Thumbs.db
 # Fichiers volumineux YOLO
 yolo26n.pt
 data/metadata/kb_metadata_with_yolo.json
+
+!reports/exploration/
+!reports/exploration/*.png

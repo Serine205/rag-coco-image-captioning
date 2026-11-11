@@ -33,3 +33,8 @@ data/metadata/kb_metadata_with_yolo.json
 
 !reports/exploration/
 !reports/exploration/*.png
+
+# Temporary YOLO checkpoints and experimental tests
+data/visual_detections/checkpoint_test_5/
+data/visual_detections/checkpoint_test_5_fixed/
+data/visual_detections/full_10000/detections_checkpoint.json

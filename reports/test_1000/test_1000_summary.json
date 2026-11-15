@@ -1,0 +1,22 @@
+{
+    "project": "COCO Image Captioning - RAG",
+    "evaluation": "Test",
+    "dataset": "MS COCO val2017",
+    "model": "openai/clip-vit-base-patch32",
+    "device": "cpu",
+    "knowledge_base_images": 10000,
+    "test_images": 1000,
+    "test_captions": 5004,
+    "top_k": 10,
+    "embedding_dimension": 512,
+    "batch_size": 16,
+    "experiments": {
+        "image_to_image": 1000,
+        "image_to_text": 1000,
+        "text_to_image": 5004,
+        "text_to_text": 5004
+    },
+    "execution_time_seconds": 160.73,
+    "execution_time_minutes": 2.68,
+    "note": "Retrieval rankings and cosine similarity scores are reported. These results do not constitute semantic precision or recall without relevance judgments."
+}
